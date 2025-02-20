@@ -90,7 +90,6 @@ python-calamine==0.3.1
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 python-lsp-jsonrpc==1.0.0
-pywinpty==2.0.10
 pyxlsb==1.0.10
 PyYAML==6.0
 pyzmq==26.0.3
