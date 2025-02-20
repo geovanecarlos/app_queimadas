@@ -50,3 +50,10 @@ soupsieve==2.6
 st-social-media-links==0.1.4
 streamlit==1.41.1
 streamlit_folium==0.24.0
+tenacity==9.0.0
+toml==0.10.2
+tzdata==2025.1
+urllib3==2.3.0
+watchdog==6.0.0
+webencodings==0.5.1
+xyzservices==2025.1.0
