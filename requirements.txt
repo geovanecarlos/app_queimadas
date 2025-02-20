@@ -103,7 +103,6 @@ six==1.16.0
 sniffio==1.3.0
 soupsieve==2.4
 SQLAlchemy==2.0.38
-stack-data==0.6.3
 TBB==0.2
 terminado==0.17.1
 tinycss2==1.2.1
