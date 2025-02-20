@@ -99,7 +99,6 @@ queuelib==1.5.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 scipy==1.13.1
-sip==4.19.13
 six==1.16.0
 sniffio==1.3.0
 soupsieve==2.4
