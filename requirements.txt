@@ -104,7 +104,6 @@ sniffio==1.3.0
 soupsieve==2.4
 SQLAlchemy==2.0.38
 stack-data==0.6.3
-tables==3.6.1
 tabulate==0.9.0
 TBB==0.2
 terminado==0.17.1
