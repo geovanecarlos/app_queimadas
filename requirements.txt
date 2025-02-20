@@ -13,7 +13,6 @@ bkcharts==0.2
 bleach==6.0.0
 brotlipy==0.7.0
 cffi==1.15.1
-clyent==1.2.2
 colorama==0.4.6
 comm==0.2.2
 comtypes==1.1.10
