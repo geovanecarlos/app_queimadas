@@ -96,7 +96,6 @@ pycosat==0.6.3
 pycparser==2.21
 pycurl==7.45.1
 PyDispatcher==2.0.5
-Pygments==2.18.0
 pyls-spyder==0.4.0
 PyMySQL==1.1.1
 PyQt5-Qt5==5.15.2
