@@ -38,6 +38,7 @@ pyarrow==19.0.0
 pydeck==0.9.1
 pyogrio==0.10.0
 pyparsing==3.2.1
+pytz==2024.2
 referencing==0.36.2
 requests==2.32.3
 rich==13.9.4
