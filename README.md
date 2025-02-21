@@ -1,7 +1,8 @@
 <div align="center">
   <div id="user-content-toc">
     <ul>
-      <summary><h1 style="display: inline-block;">👨‍🔧 Data Engineering Zoocamp UI 🎨</h1></summary>
+      <summary><h1 style="display: inline-block;">👨‍🔧 Projeto de monitoramento de focos de queimadas em Itajubá-MG DataTalksClub
+            🎨</h1></summary>
     </ul>
   </div>
 
