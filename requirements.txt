@@ -1,7 +1,7 @@
 streamlit
 streamlit_folium
 st_social_media_links
-pandas
+pandas==2.2.0
 geopandas
 plotly
 folium
