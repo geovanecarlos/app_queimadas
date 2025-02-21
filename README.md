@@ -1,4 +1,4 @@
-Projeto de monitoramento de queimadas em Itajub-a-MG
+Projeto de monitoramento de queimadas em Itajubá-MG
 
 ### Install
 ''' 
