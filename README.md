@@ -16,7 +16,7 @@
 
 <hr>
 
-![home-ui](https://github.com/Hamagistral/de-zoomcamp-ui/assets/66017329/ae4f5e3c-b577-4198-8d45-6a076c092ef4)
+![home-ui](https://github.com/geovanecarlos/app_queimadas/blob/main/dataset/fig_mapa.png)
 
 Projeto de monitoramento de focos de queimadas em Itajubá-MG
 
