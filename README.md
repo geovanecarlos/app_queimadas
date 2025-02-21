@@ -13,11 +13,15 @@
   </p>
 
   <p>
+<div style="text-align: center;">
+  <p>
     <a href="https://appqueimadas.streamlit.app/" target="_blank" 
        style="display: inline-block; background-color: #ff4500; color: white; padding: 10px 15px; 
               border-radius: 5px; text-decoration: none; font-weight: bold;">
       🔥 Visite o App 🔥
     </a>
+  </p>
+</div>
   </p>
 
   <br>
