@@ -16,7 +16,7 @@
 
 <hr>
 
-![home-ui](https://github.com/geovanecarlos/app_queimadas/blob/main/dataset/fig_mapa.png)
+![home-ui](https://github.com/geovanecarlos/app_queimadas/blob/main/dataset/fig_mapa.png?raw=true)
 
 Projeto de monitoramento de focos de queimadas em Itajubá-MG
 
