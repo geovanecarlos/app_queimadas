@@ -15,9 +15,11 @@
   </p>
 
   <p>
+<div align="center">
     <a href="https://appqueimadas.streamlit.app/" target="_blank">
       <strong>🔥 Visite o App</strong>
     </a>
+</div>
   </p>
 
 <br>
