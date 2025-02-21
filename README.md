@@ -2,11 +2,10 @@
   <div id="user-content-toc">
     <ul>
       <summary><h1 style="display: inline-block;">👨‍🔧 Projeto de monitoramento de focos de queimadas em Itajubá-MG DataTalksClub
-🎨</h1></summary>
+🔥</h1></summary>
     </ul>
   </div>
 
-  <p>Projeto de monitoramento de focos de queimadas em Itajubá-MG <a href="https://github.com/DataTalksClub" target="_blank">DataTalksClub</a></p>
     <a href="https://appqueimadas.streamlit.app/" target="_blank">Visite o App</a>
     🔥
 </div>
