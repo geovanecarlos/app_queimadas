@@ -2,7 +2,7 @@
   <div id="user-content-toc">
     <ul>
       <summary><h1 style="display: inline-block;">👨‍🔧 Projeto de monitoramento de focos de queimadas em Itajubá-MG DataTalksClub
-            🎨</h1></summary>
+🎨</h1></summary>
     </ul>
   </div>
 
