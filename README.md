@@ -1,11 +1,12 @@
 <div align="center">
   <div id="user-content-toc">
     <ul>
-      <summary><h1 style="display: inline-block;">👨‍🔧 Projeto de monitoramento de focos de queimadas em Itajubá-MG DataTalksClub
+      <summary><h1 style="display: inline-block;">👨‍🔧 Monitoramento de focos de queimadas em Itajubá-MG
 🔥</h1></summary>
     </ul>
   </div>
 
+  <p>Projeto de monitoramento de focos de queimadas em Itajubá-MG <a href="https://github.com/geovanecarlos"" target="_blank"></p>
     <a href="https://appqueimadas.streamlit.app/" target="_blank">Visite o App</a>
     🔥
 </div>
