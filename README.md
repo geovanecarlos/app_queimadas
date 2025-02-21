@@ -7,7 +7,7 @@
   </div>
 
   <p>Os resultados deste dashboard podem ser observados no artigo: 
-            __Caracterização das Queimadas no Município de Itajubá, MG__, publicado na Revista Brasileira de Geografia Física em 2025.
+            Caracterização das Queimadas no Município de Itajubá, MG, publicado na Revista Brasileira de Geografia Física em 2025.
             Os dados de focos de queimadas em Itajubá-MG são provenientes do Corpo de Bombeiros de Itajubá e 
             referem-se ao período entre 2019 e 2022.  <a href="https://github.com/geovanecarlos"" target="_blank"></p>
     <a href="https://appqueimadas.streamlit.app/" target="_blank">Visite o App</a>
