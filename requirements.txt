@@ -11,3 +11,6 @@ python-dateutil
 tzdata
 numpy
 six
+contextlib
+localization
+locale
