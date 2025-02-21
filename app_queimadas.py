@@ -69,20 +69,28 @@ def calcular_focos_anual(df_queimadas):
     return df_ano, list_bairros, list_anos
 
 # Função para calcular o acumulado total de focos de queimadas em Itajubá
+# Função para calcular o acumulado total de focos de queimadas em Itajubá
 def calcular_sazonalidade_focos(df_queimadas):
     df_focos_totais_itajuba = df_queimadas.resample('ME')['Número de Focos'].sum().reset_index()
-    df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Data'].dt.month_name(locale="pt_BR")
-    df_focos_totais_itajuba['Ano'] = df_focos_totais_itajuba['Data'].dt.year
+    df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Data'].dt.month
+
+    map_meses = {1: 'janeiro', 2: 'fevereiro', 3: 'março', 4: 'abril', 5: 'maio', 6: 'junho',
+                         7: 'julho', 8: 'agosto', 9: 'setembro', 10: 'outubro', 11: 'novembro', 12: 'dezembro'}
+    
+    df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Mês'].map(map_meses)
+    df_focos_totais_itajuba['Ano'] = df_focos_totais_itajuba['Data'].dt.strftime('%y')
+
     df_mensal_anual = df_focos_totais_itajuba.copy()
     df_mensal_anual = df_mensal_anual[['Data', 'Mês', 'Ano', 'Número de Focos']]
     df_mensal_total = df_mensal_anual.groupby("Mês")["Número de Focos"].sum().reset_index()
-
+    
     # Ordenando os meses na sequência correta
-    list_meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
-                  'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+    list_meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
+                  'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 
     df_mensal_total["Mês"] = pd.Categorical(df_mensal_total["Mês"], categories=list_meses, ordered=True)
     df_mensal_total = df_mensal_total.sort_values("Mês")
+    print(df_mensal_total)
     return df_mensal_anual, df_mensal_total
 
 #Processando os dados
