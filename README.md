@@ -2,13 +2,16 @@
   <h1 style="text-align: center; font-size: 2em;">
     🔥 Monitoramento de Focos de Queimadas em Itajubá-MG 🚒
   </h1>
-
-  <p style="max-width: 600px; text-align: justify;">
-    Os resultados deste dashboard podem ser observados no artigo: 
-    <strong>Caracterização das Queimadas no Município de Itajubá, MG</strong>, publicado na 
+</div>
+  <p>
+    Os resultados deste dashboard podem ser observados no artigo:  
+    <strong>Caracterização das Queimadas no Município de Itajubá, MG</strong>, publicado na  
     <em>Revista Brasileira de Geografia Física</em> em 2025.
-    Os dados de focos de queimadas em Itajubá-MG são provenientes do Corpo de Bombeiros de Itajubá e 
-    referem-se ao período entre 2019 e 2022.
+  </p>
+
+  <p>
+    Os dados de focos de queimadas em Itajubá-MG são provenientes do Corpo de Bombeiros de Itajubá e  
+    referem-se ao período entre 2019 e 2022.  
   </p>
 
   <p>
@@ -20,7 +23,7 @@
       <strong>🔥 Visite o App</strong>
     </a>
   </p>
-</div>
+
 
 <br>
 
