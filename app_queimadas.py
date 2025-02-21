@@ -69,7 +69,6 @@ def calcular_focos_anual(df_queimadas):
     return df_ano, list_bairros, list_anos
 
 # Função para calcular o acumulado total de focos de queimadas em Itajubá
-# Função para calcular o acumulado total de focos de queimadas em Itajubá
 def calcular_sazonalidade_focos(df_queimadas):
     df_focos_totais_itajuba = df_queimadas.resample('ME')['Número de Focos'].sum().reset_index()
     df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Data'].dt.month
@@ -78,7 +77,7 @@ def calcular_sazonalidade_focos(df_queimadas):
                          7: 'julho', 8: 'agosto', 9: 'setembro', 10: 'outubro', 11: 'novembro', 12: 'dezembro'}
     
     df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Mês'].map(map_meses)
-    df_focos_totais_itajuba['Ano'] = df_focos_totais_itajuba['Data'].dt.strftime('%y')
+    df_focos_totais_itajuba['Ano'] = df_focos_totais_itajuba['Data'].dt.year
 
     df_mensal_anual = df_focos_totais_itajuba.copy()
     df_mensal_anual = df_mensal_anual[['Data', 'Mês', 'Ano', 'Número de Focos']]
@@ -90,6 +89,7 @@ def calcular_sazonalidade_focos(df_queimadas):
 
     df_mensal_total["Mês"] = pd.Categorical(df_mensal_total["Mês"], categories=list_meses, ordered=True)
     df_mensal_total = df_mensal_total.sort_values("Mês")
+    print(df_focos_totais_itajuba)
     return df_mensal_anual, df_mensal_total
 
 #Processando os dados
@@ -309,7 +309,8 @@ with tab3:
 #configurações da sidebar
 with st.sidebar:
     st.markdown("---")
-    st.markdown('<h6>Desenvolvido por <a href="https://www.linkedin.com/in/geovane-carlos-0561a8177/">Geovane Carlos</a></h6>',
+    st.markdown('<h6>Desenvolvido por <a href="https://www.linkedin.com/in/geovanecarlos" target="_blank"> Geovane Carlos</a></h6>',
+                
     unsafe_allow_html=True
     )
     social_media_links = ["https://www.linkedin.com/in/geovanecarlos",
