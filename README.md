@@ -6,14 +6,12 @@
   </div>
 
   <p>An Interactive UI for the DE Zoomcamp Course provided by <a href="https://github.com/DataTalksClub" target="_blank">DataTalksClub</a></p>
-    <a href="https://dezoomcamp.streamlit.app/" target="_blank">Visit App</a>
-    🌌
-    <a href="https://github.com/Hamagistral/de-zoomcamp-ui/issues" target="_blank">Request Feature</a>
+    <a href="appqueimadas.streamlit.app/" target="_blank">Visit App</a>
+    🔥
 </div>
 <br>
 <div align="center">
-      <a href="https://dezoomcamp.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>
-      <img src="https://img.shields.io/github/stars/hamagistral/de-zoomcamp-ui?color=blue&style=social"/>
+      <a href="appqueimadas.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"/></a>
 </div>
 
 <hr>
