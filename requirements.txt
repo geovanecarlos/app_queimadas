@@ -13,4 +13,3 @@ numpy
 six
 contextlib
 localization
-locale
