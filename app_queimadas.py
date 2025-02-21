@@ -3,7 +3,7 @@ from streamlit_folium import folium_static
 from st_social_media_links import SocialMediaIcons
 import pandas as pd
 import locale
-locale.setlocale(locale.LC_TIME, 'Portuguese_Brazil.1252')  # Para Windows
+locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')  # Para Windows
 import geopandas as gpd
 import plotly.express as px
 import plotly.graph_objects as go
