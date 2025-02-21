@@ -15,15 +15,10 @@
   </p>
 
   <p>
-    <a href="https://github.com/geovanecarlos" target="_blank">Acesse o repositório no GitHub</a>
-  </p>
-
-  <p>
     <a href="https://appqueimadas.streamlit.app/" target="_blank">
       <strong>🔥 Visite o App</strong>
     </a>
   </p>
-
 
 <br>
 
@@ -37,7 +32,7 @@
 
 <div align="center">
   <img src="https://github.com/geovanecarlos/app_queimadas/blob/main/dataset/fig_mapa.png?raw=true" 
-       alt="Mapa de Focos de Queimadas" width="80%"/>
+       alt="Mapa de Focos de Queimadas"/>
 </div>
 
 
