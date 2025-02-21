@@ -6,3 +6,8 @@ geopandas
 plotly
 folium
 openpyxl
+pytz
+python-dateutil
+tzdata
+numpy
+six
