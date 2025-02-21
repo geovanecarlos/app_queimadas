@@ -3,7 +3,6 @@ streamlit_folium
 st_social_media_links
 pandas
 locale
-locale.setlocale(locale.LC_TIME, 'Portuguese_Brazil.1252') 
 geopandas
 plotly
 folium
