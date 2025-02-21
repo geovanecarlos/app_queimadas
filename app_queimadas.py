@@ -71,7 +71,7 @@ def calcular_focos_anual(df_queimadas):
 # Função para calcular o acumulado total de focos de queimadas em Itajubá
 def calcular_sazonalidade_focos(df_queimadas):
     df_focos_totais_itajuba = df_queimadas.resample('ME')['Número de Focos'].sum().reset_index()
-    df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Data']#.dt.month_name(locale="pt_BR")
+    df_focos_totais_itajuba['Mês'] = df_focos_totais_itajuba['Data'].dt.month_name(locale="pt_BR")
     df_focos_totais_itajuba['Ano'] = df_focos_totais_itajuba['Data'].dt.year
     df_mensal_anual = df_focos_totais_itajuba.copy()
     df_mensal_anual = df_mensal_anual[['Data', 'Mês', 'Ano', 'Número de Focos']]
