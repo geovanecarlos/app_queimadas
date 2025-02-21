@@ -2,6 +2,8 @@ import streamlit as st
 from streamlit_folium import folium_static
 from st_social_media_links import SocialMediaIcons
 import pandas as pd
+import locale
+locale.setlocale(locale.LC_TIME, 'Portuguese_Brazil.1252')  # Para Windows
 import geopandas as gpd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -79,8 +81,8 @@ def calcular_sazonalidade_focos(df_queimadas):
     df_mensal_total = df_mensal_anual.groupby("Mês")["Número de Focos"].sum().reset_index()
 
     # Ordenando os meses na sequência correta
-    list_meses = ['January', 'February', 'March', 'April', 'May', 'June',
-                  'July', 'August', 'September', 'October', 'November', 'December']
+    list_meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
+                  'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 
     df_mensal_total["Mês"] = pd.Categorical(df_mensal_total["Mês"], categories=list_meses, ordered=True)
     df_mensal_total = df_mensal_total.sort_values("Mês")
