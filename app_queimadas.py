@@ -48,7 +48,7 @@ def calcular_focos_total(df_queimadas):
     df_total_bairros['Ano'] = 'Total'  # Indica que é o total do período analisado
     return df_total_bairros
 
-# Processamento dos dados (inserindo 0 nos meses sem registros de QUEIMADAS)
+# Processamento dos dados (inserindo o valor 0 nos meses sem registros de QUEIMADAS)
 def calcular_focos_mensal(df_queimadas):
     df_queimadas["Mês/Ano"] = df_queimadas.index.to_period("M")  # Criando coluna Mês/Ano
     df_grouped = df_queimadas.groupby(["Mês/Ano", "Bairro"])["Número de Focos"].sum().reset_index()
