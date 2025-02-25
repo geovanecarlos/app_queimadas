@@ -38,14 +38,29 @@
 </div>
 
 
-Projeto de monitoramento de focos de queimadas em Itajubá-MG
+## 💻 Utilização
 
-### Install
-''' 
-$ pip install -r requirements.txt
-'''
+1. Clone o repositório:
 
-### Run
-'''
-$ streamlit run app_queimadas.py
-'''
+```
+git clone https://github.com/geovanecarlos/app_queimadas.git
+```
+
+2. Instale as dependências:
+
+```
+pip install -r requirements.txt
+```
+
+3. Entre na pasta `APP_QUEIMADAS`:
+
+```
+cd APP_QUEIMADAS/
+```
+
+3. Rode o app:
+```
+streamlit run app_queimadas.py
+```
+
+4. Acesse o app em seu navegador em: http://localhost:8501
