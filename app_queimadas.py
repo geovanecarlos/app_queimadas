@@ -89,7 +89,6 @@ def calcular_sazonalidade_focos(df_queimadas):
 
     df_mensal_total["Mês"] = pd.Categorical(df_mensal_total["Mês"], categories=list_meses, ordered=True)
     df_mensal_total = df_mensal_total.sort_values("Mês")
-    print(df_focos_totais_itajuba)
     return df_mensal_anual, df_mensal_total
 
 #Processando os dados
