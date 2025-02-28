@@ -184,7 +184,7 @@ with tab2:
                             opacity=0.6
                             )
         
-        # Gráfico do n° de queimadas por bairro/mês
+        # Gráfico do número de queimadas por bairro/mês
         # Filtrar os dados para o bairro selecionado
         df_filtrado = df_grouped[df_grouped["Bairro"] == bairro_selecionado]
 
