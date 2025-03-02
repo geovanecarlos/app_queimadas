@@ -52,7 +52,7 @@ git clone https://github.com/geovanecarlos/app_queimadas.git
 pip install -r requirements.txt
 ```
 
-3. Entre na pasta `APP_QUEIMADAS`:
+3. Entre na pasta `app_queimadas`:
 
 ```
 cd APP_QUEIMADAS/
