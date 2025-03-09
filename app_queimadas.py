@@ -99,7 +99,6 @@ df_mensal_anual, df_mensal_total= calcular_sazonalidade_focos(df_queimadas)
 
 #configurações da sidebar
 with st.sidebar:
-    #st.logo("dataset/imagem_fogo.png", size="large")
     st.subheader("Configurações") 
 
 # Função para plotagem do gráficos
@@ -308,13 +307,24 @@ with tab3:
 #configurações da sidebar
 with st.sidebar:
     st.markdown("---")
-    st.markdown('<h6>Desenvolvido por <a href="https://www.linkedin.com/in/geovanecarlos" target="_blank"> Geovane Carlos</a></h6>',
-                
-    unsafe_allow_html=True
+
+    st.markdown(
+        """
+        <style>
+        .custom-text {
+            color: #ffffff;
+            font-size: 14px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
     )
-    social_media_links = ["https://www.linkedin.com/in/geovanecarlos",
-                            "https://github.com/geovanecarlos"
-                            ]
+
+    st.markdown(
+        '<h6 class="custom-text">Desenvolvido por <a href="https://www.linkedin.com/in/geovanecarlos" target="_blank" style="color: #ffffff;"> Geovane Carlos</a></h6>',
+        unsafe_allow_html=True
+    )
+
+    social_media_links = ["https://www.linkedin.com/in/geovanecarlos", "https://github.com/geovanecarlos"]
     social_media_icons = SocialMediaIcons(social_media_links)
     social_media_icons.render()
-    
