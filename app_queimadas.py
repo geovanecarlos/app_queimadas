@@ -298,7 +298,7 @@ with tab3:
         # Exibindo o mapa no Streamlit
         st.subheader("Mapa de Calor dos Focos de Queimadas em Itajubá-MG")
 
-        folium_static(m, width=950, height=400)
+        folium_static(m, width=900, height=400)
 
     # Exibindo o mapa no Streamlit
     if __name__ == "__main__":
