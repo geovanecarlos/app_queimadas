@@ -110,11 +110,15 @@ with tab1:
         with st.expander("Informações:", expanded=True):
             horizontal_bar = "<hr style='margin-top: 0; margin-bottom: 0; height: 1px; border: 1px solid #ff9793;'><br>"    
             st.markdown(
-            f""" 
-            - Os resultados deste dashboard podem ser observados no artigo: 
-            __Caracterização das Queimadas no Município de Itajubá, MG__, publicado na Revista Brasileira de Geografia Física em 2025.
-            \n - Os dados de focos de queimadas em Itajubá-MG são provenientes do Corpo de Bombeiros de Itajubá e 
-            referem-se ao período entre 2019 e 2022.""")
+                """
+                - Os resultados deste dashboard podem ser observados no artigo:  
+                [__Caracterização das Queimadas no Município de Itajubá, MG__](https://periodicos.ufpe.br/revistas/index.php/rbgfe/article/view/262758), publicado na *Revista Brasileira de Geografia Física* em 2025.
+                
+                - Os dados de focos de queimadas em Itajubá-MG são provenientes do **Corpo de Bombeiros de Itajubá**  
+                e referem-se ao período entre **2019 e 2022**.
+                """
+            )
+
             st.markdown(horizontal_bar, True)
             
             st.markdown(""" 
