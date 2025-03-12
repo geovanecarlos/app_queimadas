@@ -3,16 +3,20 @@
     🔥 Monitoramento de Focos de Queimadas em Itajubá-MG 🚒
   </h1>
 </div>
-  <p>
-    Os resultados deste dashboard podem ser observados no artigo:  
-    <strong>Caracterização das Queimadas no Município de Itajubá, MG</strong>, publicado na  
-    <em>Revista Brasileira de Geografia Física</em> em 2025.
-  </p>
 
-  <p>
-    Os dados de focos de queimadas em Itajubá-MG são provenientes do Corpo de Bombeiros de Itajubá e  
-    referem-se ao período entre 2019 e 2022.  
-  </p>
+<p>
+  Os resultados deste dashboard podem ser observados no artigo:  
+  <a href="https://periodicos.ufpe.br/revistas/index.php/rbgfe/article/view/262758" 
+     target="_blank" style="color: white; font-weight: bold;">
+    Caracterização das Queimadas no Município de Itajubá, MG
+  </a>, publicado na  
+  <em>Revista Brasileira de Geografia Física</em> em 2025.
+</p>
+
+<p>
+  Os dados de focos de queimadas em Itajubá-MG são provenientes do Corpo de Bombeiros de Itajubá e  
+  referem-se ao período entre 2019 e 2022.  
+</p>
 
   <p>
 <div align="center">
